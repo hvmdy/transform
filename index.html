@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Transform Example</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            margin: 50px;
+            transition: transform 0.5s ease;
+        }
+
+        .box:hover {
+            /* Rotate 45 degrees, scale 1.2, move 50px right and 20px down */
+            transform: rotate(45deg) scale(1.2) translate(50px, 20px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
